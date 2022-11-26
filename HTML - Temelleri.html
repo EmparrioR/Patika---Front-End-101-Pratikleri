@@ -1,0 +1,97 @@
+<html>
+<html lang = "tr" > 
+  <head>
+    <meta charset = "UTF-8">
+  <!-- <title> Kodluyoruz </title> -->
+	  <title> Sekmede Görülecek İsmin Yazıldığı Yer </title>
+	  <meta name = "Keyword" content = "HTML Kodluyoruz">
+  </head>
+
+  <body>
+    <h1>Kodluyoruz "HTML Nedir?" <br> Yazımıza Hoş Geldiniz</h1>
+    <p>İlk Web Sayfamız</p>
+
+<!-- Sırasız Liste -->    
+    <ul> 
+      <li> HTML </li>
+      <li> CSS </li>
+      <li> JavaScript </li>
+    </ul>
+
+<!-- Sıralı Liste -->    
+    <ol>
+    <li> HTML </li>  
+    <li> CSS </li>
+    <li> JavaScript </li>
+    </ol>
+
+  <script> 
+      document.write("Kodluyoruz\n"); 
+  </script>  <br>
+
+  <button> Sakın Basma </button> <br>
+
+  <img width = "50" src = "C:\Users\mahmu\Downloads\847704.jpg" alt = "Deneme 1" />
+  
+  <!-- Sayfamıza başka bir siteden içerik koymak için; -->
+  <!-- Bu örnekte youtubedan bir video koyduk -->
+  
+<!--
+  <iframe width="1519" height="581" src="https://www.youtube.com/embed/BHPYQHnD_QA" frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen></iframe>
+-->
+	<!-- Güvenilir bir şekilde kod yükleme yazımı -->
+	
+  <!--
+	<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" 
+	integrity = "sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"  
+	crossorigin = "anonymous"></script>
+  -->
+
+  <ol type="a" start="d" reversed>
+    <li>HTML</li>
+    <li>CSS</li>
+    <li>JS</li>
+  </ol>
+
+  <ul type="circle">
+    <li>Alperen</li>
+    <li>Mahmut</li>
+    <li>Atar</li>
+  </ul>
+
+  <img src="C:\Users\mahmu\OneDrive\Resimler\Ekran Görüntüleri/Ekran görüntüsü_20221126_145729.png" alt="Ekran Görüntüsü" width="45" height="45" border="3"> <br>
+
+
+  <!-- Resme link vermek (Önemli) -->
+
+  <a href="default.asp">
+    <img src="C:\Users\mahmu\Downloads\i.jpg" alt="Savaşçı" align="right" width="100" height="100">
+  </a>
+
+  <!-- map ve area kullanarak resmin tamamını değil belirli bir alanını link haline 
+  dönüştürebiliriz ve area ile aynı resme farklı farklı linkler koyabiliriz -->
+
+  <img src="C:\Users\mahmu\Downloads\847704.jpg" alt="?" usemap="#workmap" width="200" height="200">
+
+  <map name="workmap">
+    <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.html"
+    <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.html">
+    <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="coffee.html">
+  </map>
+
+  <!--picture kullanımı: Bir resim gösterilmek için uygun olmadığında diğer resmi kullanılmasını sağlar-->
+  <!--Burada ekran genişliğinin 800 pikselden küçük olduğu durumlarda başka diğer koşullarda ise başka bir görsel kullanılacak.-->
+  <picture>
+    <source srcset="https://cdn.sanity.io/images/9kdepi1d/production/65c832d202a503b15d99e628f4313782f3ef50db-300x62.png" 
+    media="(min-width: 800px)">
+    <img src="/media/cc0-images/painted-hand-298-332.jpg" alt="" />
+  </picture>
+
+  <a href="https:/www.kodluyoruz.org/" target="_blank"><span style=background-color:yellow;">Link'in Göreceğimiz Adı</span></a>
+
+  <span style="background-color:blue;">Öge Mevcut</span>
+
+  </body>
+</html>
